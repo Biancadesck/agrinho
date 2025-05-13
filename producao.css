@@ -1,0 +1,140 @@
+/* producao.css */
+
+/* Estilos gerais para a página de produção e industrialização */
+body {
+    font-family: sans-serif;
+    background-color: #fbe9e7; /* Um tom de bege claro para associar à terra e aos produtos */
+    color: #333;
+    line-height: 1.6;
+}
+
+.cabecalho {
+    background-color: #ff7043; /* Um tom de laranja para o cabeçalho de produção */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cabecalho h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.cabecalho h3 {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+/* Estilos para a navegação (mantendo o verde do Bootstrap) */
+.navbar-success {
+    background-color: #4caf50 !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #c8e6c9 !important;
+}
+
+/* Estilos para a seção principal de conteúdo */
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.pt-5 {
+    padding-top: 40px !important;
+}
+
+.pb-3 {
+    padding-bottom: 25px !important;
+}
+
+h2 {
+    color: #e64a19; /* Um tom de laranja mais escuro para os títulos de produção */
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e64a19;
+    padding-bottom: 10px;
+}
+
+.alinha {
+    text-align: justify;
+    line-height: 1.8;
+}
+
+.img-agro {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para os cards */
+.card {
+    border: 1px solid #ffe0b2; /* Borda mais clara para os cards de produção */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.img-card {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    max-height: 150px;
+    object-fit: cover;
+}
+
+.card-title {
+    color: #ff7043; /* Usando a cor principal de produção para os títulos dos cards */
+    font-size: 1.1em;
+    margin-bottom: 0.75rem;
+}
+
+.card-text {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.btn-primary {
+    background-color: #ff7043 !important; /* Cor primária para os botões de produção */
+    border-color: #ff7043 !important;
+}
+
+.btn-primary:hover {
+    background-color: #ff8a65 !important; /* Um tom mais claro ao passar o mouse */
+    border-color: #ff8a65 !important;
+}
+
+/* Estilos para o carrossel */
+.carousel {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img-slide {
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    opacity: 0.7;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 0.9;
+}
+
+/* Estilos para o rodapé */
+.footer {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+    border-top: 2px solid #81c784;
+}

@@ -1,0 +1,140 @@
+/* agua.css */
+
+/* Estilos gerais para a página de água */
+body {
+    font-family: sans-serif; /* Uma fonte padrão agradável */
+    background-color: #e0f7fa; /* Um tom de azul claro para remeter à água */
+    color: #333; /* Cor de texto principal */
+    line-height: 1.6; /* Melhora a legibilidade do texto */
+}
+
+.cabecalho {
+    background-color: #00bcd4; /* Um azul mais насыщенный para o cabeçalho */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cabecalho h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.cabecalho h3 {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+/* Estilos para a navegação (você já está usando Bootstrap, mas pode adicionar mais se quiser) */
+.navbar-success {
+    background-color: #4caf50 !important; /* Mantendo o verde, mas forçando a aplicação */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #c8e6c9 !important; /* Um tom de verde mais claro ao passar o mouse */
+}
+
+/* Estilos para a seção principal de conteúdo */
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.pt-5 { /* Espaçamento superior (já é do Bootstrap) */
+    padding-top: 40px !important; /* Aumentando um pouco o espaçamento */
+}
+
+.pb-3 { /* Espaçamento inferior (já é do Bootstrap) */
+    padding-bottom: 25px !important; /* Aumentando um pouco o espaçamento */
+}
+
+h2 {
+    color: #00838f; /* Um tom de azul mais escuro para os títulos */
+    margin-bottom: 20px;
+    border-bottom: 2px solid #00838f; /* Uma linha abaixo do título para destaque */
+    padding-bottom: 10px;
+}
+
+.alinha {
+    text-align: justify; /* Justifica o texto para uma leitura mais agradável */
+    line-height: 1.8;
+}
+
+.img-agro {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para os cards */
+.card {
+    border: 1px solid #b2ebf2; /* Borda mais clara para os cards */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.img-card {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    max-height: 150px; /* Altura máxima para as imagens dos cards */
+    object-fit: cover; /* Garante que a imagem cubra o espaço sem deformar */
+}
+
+.card-title {
+    color: #00bcd4; /* Usando a cor principal para os títulos dos cards */
+    font-size: 1.1em;
+    margin-bottom: 0.75rem;
+}
+
+.card-text {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.btn-primary {
+    background-color: #00bcd4 !important; /* Cor primária para os botões */
+    border-color: #00bcd4 !important;
+}
+
+.btn-primary:hover {
+    background-color: #26c6da !important; /* Um tom mais claro ao passar o mouse */
+    border-color: #26c6da !important;
+}
+
+/* Estilos para o carrossel */
+.carousel {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img-slide {
+    max-height: 300px; /* Altura máxima para as imagens do carrossel */
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    opacity: 0.7;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 0.9;
+}
+
+/* Estilos para o rodapé */
+.footer {
+    background-color: #4caf50; /* Cor do rodapé combinando com a navegação */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+    border-top: 2px solid #81c784; /* Uma borda para separar do conteúdo */
+}

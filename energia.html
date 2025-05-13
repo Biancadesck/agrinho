@@ -1,11 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>AGRINHO 2025 - Energia Rural</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="energia.css">
 </head>
+
 <body>
-    energia
+    <section class="cabecalho">
+        <h1>AGRINHO 2025</h1>
+        <h3>Fortalecendo a Energia no Campo</h3>
+    </section>
+
+    <nav class="navbar navbar-expand-lg bg-success">
+        <div class="container-fluid ">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html">Página Inicial |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="energia.html">Energia Rural |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="agua.html">Acessibilidade a Água |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="producao.html">Produção</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row pt-5">
+            <div class="col ">
+                <div>
+                    <h2>A Importância da Energia para o Desenvolvimento Rural</h2>
+                    <p class="alinha">A energia é um pilar fundamental para o crescimento e a modernização do campo. Seja para a produção agrícola, o funcionamento de máquinas e equipamentos, a iluminação ou o bem-estar das comunidades rurais, o acesso à energia confiável e sustentável é crucial. Discutir as diferentes fontes de energia e as tecnologias disponíveis para o meio rural é essencial para impulsionar o progresso e a qualidade de vida no campo.</p>
+                    <p class="alinha">É importante explorar as energias renováveis, como a solar e a eólica, que possuem grande potencial de aplicação no contexto rural, contribuindo para a redução da dependência de fontes não renováveis e para a preservação do meio ambiente.</p>
+                </div>
+            </div>
+            <div class="col text-center">
+                <div>
+                    <img class="img-agro br-3" src="./assets/image/energia_rural.jpg" alt="Imagem representativa de energia rural.">
+                    <small class="text-muted">Exemplo de imagem: Substitua por uma relevante para o seu conteúdo.</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="row pt-5">
+            <h3 class="text-center pb-3">Descubra mais sobre Energia no Campo</h3>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./assets/image/energia_solar_rural.jpg" class="img-card card-img-top" alt="Painéis solares em área rural.">
+                    <div class="card-body">
+                        <h5 class="card-title">Energia Solar Fotovoltaica</h5>
+                        <p class="card-text">Explore como a energia solar pode ser aproveitada em propriedades rurais, reduzindo custos e promovendo a sustentabilidade.</p>
+                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./assets/image/energia_eolica_rural.jpg" class="img-card card-img-top" alt="Turbinas eólicas em paisagem rural.">
+                    <div class="card-body">
+                        <h5 class="card-title">Energia Eólica no Campo</h5>
+                        <p class="card-text">Conheça o potencial da energia eólica para gerar eletricidade em áreas rurais e seus benefícios ambientais.</p>
+                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./assets/image/biomassa_rural.jpg" class="img-card card-img-top" alt="Utilização de biomassa como fonte de energia.">
+                    <div class="card-body">
+                        <h5 class="card-title">Biomassa e Bioenergia</h5>
+                        <p class="card-text">Descubra como a biomassa de origem agrícola pode ser utilizada para a produção de energia.</p>
+                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="carouselEnergia" class="carousel slide pt-4 pb-3" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/image/energia_slide_rural_1.jpg" class="img-slide d-block w-100" alt="Imagem de energia rural 1.">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/image/energia_slide_rural_2.jpg" class="img-slide d-block w-100" alt="Imagem de energia rural 2.">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/image/energia_slide_rural_3.jpg" class="img-slide d-block w-100" alt="Imagem de energia rural 3.">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselEnergia" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselEnergia" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="footer ">
+        <p>Todos os direitos reservados para agrinho 2025 - Festejando a conexão campo cidade.</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
